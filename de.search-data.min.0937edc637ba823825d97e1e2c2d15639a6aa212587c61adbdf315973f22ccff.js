@@ -1,0 +1,1 @@
+'use strict';(function(){const b={cache:!0};b.doc={id:'id',field:['title','content'],store:['title','href']};const a=FlexSearch.create('balance',b);window.bookSearchIndex=a,a.add({id:0,href:'/posts/my-first-post/',title:"My First Post",content:"this is my first post\n"}),a.add({id:1,href:'/posts/',title:"Posts",content:""})})()
