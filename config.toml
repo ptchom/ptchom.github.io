@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "My New Hugo Site"
+theme =             "book"
+paginate        =   6
+
+#Book configuration
+#disablePathToLower = true
+#enableGitInfo = true
+
+[params]
+  BookToC = true
+  BookLogo = 'logo.jpg'
+  BookSection = 'school'
+  BookMenuBundle = '/menu'
+  images = ["site-feature-image.jpg"]
+  AuthorName = "ptchom"
+  GitHubUser = "ptchom"
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
